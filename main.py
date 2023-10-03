@@ -1,6 +1,6 @@
 import librerias
 
-documento = "E:\\ESCOM\\Materias\\Probabilidad\\cereals.txt"
+documento = "E:\\ESCOM\\Materias\\Probabilidad\\cereals2reducido.txt"
 
 datos = librerias.leer_datos(documento)
 

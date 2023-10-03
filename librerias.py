@@ -1,4 +1,5 @@
 import matplotlib as plt
+import matplotlib.pyplot as ozuna
 
 # Función para leer los datos desde un archivo TXT
 def leer_datos(archivo):
@@ -104,16 +105,16 @@ def mostrar_diagrama_tallo_hoja(datos):
 
 # Función para mostrar el histograma utilizando Matplotlib
 def mostrar_histograma(datos):
-    plt.hist(datos, bins=10, edgecolor='k')
-    plt.xlabel('Valores')
-    plt.ylabel('Frecuencia')
-    plt.title('Histograma')
-    plt.show()
+    ozuna.hist(datos, bins=9, edgecolor='k')
+    ozuna.xlabel('Valores')
+    ozuna.ylabel('Frecuencia')
+    ozuna.title('Histograma')
+    ozuna.show()
 
 # Función para mostrar la gráfica de caja utilizando Matplotlib
 def mostrar_grafica_caja(datos):
-    plt.boxplot(datos)
-    plt.ylabel('Valores')
-    plt.title('Gráfica de Caja')
+    ozuna.boxplot(datos)
+    ozuna.ylabel('Valores')
+    ozuna.title('Gráfica de Caja')
     
-    plt.show()
+    ozuna.show()
